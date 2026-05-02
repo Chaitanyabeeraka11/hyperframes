@@ -78,6 +78,18 @@ npx hyperframes render       # render to MP4
 
 `hyperframes init` installs skills automatically, so you can hand off to your AI agent at any point.
 
+### Option 3: Hyperframes Video Studio (New)
+
+We now include a full-featured video rendering server and beautiful dashboard interface!
+
+```bash
+cd video-studio
+bun install
+bun run dev
+```
+
+Then visit `http://localhost:3333` in your browser to create projects, browse templates, and queue video renders.
+
 **Requirements:** Node.js >= 22, FFmpeg
 
 ## Why Hyperframes?
@@ -170,6 +182,7 @@ Full documentation at **[hyperframes.heygen.com/introduction](https://hyperframe
 | [`@hyperframes/studio`](packages/studio)                         | Browser-based composition editor UI                         |
 | [`@hyperframes/player`](packages/player)                         | Embeddable `<hyperframes-player>` web component             |
 | [`@hyperframes/shader-transitions`](packages/shader-transitions) | WebGL shader transitions for compositions                   |
+| [`video-studio`](video-studio)                                   | Full-featured server, DB, and UI for rendering videos       |
 
 ## Skills
 
